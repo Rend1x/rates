@@ -22,7 +22,7 @@ class RatesUiTransformer @Inject constructor(
 
             add(
                 RateUi(
-                    R.drawable.ic_eu,
+                    R.drawable.ic_flag_switzerland,
                     context.getString(R.string.chf_name),
                     context.getString(R.string.chf_title),
                     data.cHF
@@ -31,7 +31,7 @@ class RatesUiTransformer @Inject constructor(
 
             add(
                 RateUi(
-                    R.drawable.ic_eu,
+                    R.drawable.ic_flag_of_canada,
                     context.getString(R.string.cad_name),
                     context.getString(R.string.cad_title),
                     data.cAD
@@ -40,7 +40,7 @@ class RatesUiTransformer @Inject constructor(
 
             add(
                 RateUi(
-                    R.drawable.ic_eu,
+                    R.drawable.ic_flag_brazil,
                     context.getString(R.string.brl_name),
                     context.getString(R.string.brl_title),
                     data.bRL
@@ -49,7 +49,7 @@ class RatesUiTransformer @Inject constructor(
 
             add(
                 RateUi(
-                    R.drawable.ic_eu,
+                    R.drawable.ic_flag_of_bulgaria,
                     context.getString(R.string.bgn_name),
                     context.getString(R.string.bgn_title),
                     data.bGN
@@ -58,7 +58,7 @@ class RatesUiTransformer @Inject constructor(
 
             add(
                 RateUi(
-                    R.drawable.ic_eu,
+                    R.drawable.ic_flag_of_australia,
                     context.getString(R.string.aud_name),
                     context.getString(R.string.aud_title),
                     data.aUD

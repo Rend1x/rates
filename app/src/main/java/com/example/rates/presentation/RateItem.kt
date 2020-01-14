@@ -1,9 +1,12 @@
 package com.example.rates.presentation
 
 import android.text.Editable
+import com.bumptech.glide.Glide
 import com.example.rates.R
 import com.example.rates.utils.AbstractTextWatcher
 import com.example.rates.ext.setIconResOrHide
+import com.example.rates.ext.withCenterCropOval
+import com.example.rates.ext.withFade
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import com.xwray.groupie.kotlinandroidextensions.Item
 import kotlinx.android.synthetic.main.item_rate.view.*
@@ -19,7 +22,12 @@ class RateItem(
 
     override fun bind(viewHolder: GroupieViewHolder, position: Int) = with(viewHolder.itemView) {
         with(rateUi) {
-            itemCurrency.setIconResOrHide(image)
+
+            Glide.with(itemCurrency)
+                .load(image)
+                .withCenterCropOval()
+                .into(itemCurrency)
+
             itemTypeName.text = title
             itemName.text = subTitle
 
