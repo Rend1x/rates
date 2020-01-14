@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rates</string>
+
+    <string name="aud_name">AUD</string>
+    <string name="aud_title">Австралийский доллар</string>
+
+    <string name="bgn_name">BGN</string>
+    <string name="bgn_title">Австралийский доллар</string>
+
+    <string name="brl_name">BRL</string>
+    <string name="brl_title">Болгарский лев</string>
+
+    <string name="cad_name">CAD</string>
+    <string name="cad_title">Канадский доллар</string>
+
+    <string name="chf_name">CHF</string>
+    <string name="chf_title">Швейцарский франк</string>
+
+    <string name="eur_name">EUR</string>
+    <string name="eur_title">Евро</string>
+
+
+</resources>
